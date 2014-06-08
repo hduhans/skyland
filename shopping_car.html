@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>我的购物车</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<style>
+#mtop{width:100%;float:left;text-align:center;margin-top:30px;}
+ #mtop ul{float:left;margin-left:49px;height:25px;}
+ #mtop  .type1{width:300px;height:19px;float:left;background:url(images/ck1300.jpg) #CC0099;text-align:center;padding-top:6px;color:white;font-size:14px;font-weight:bold;}
+ #mtop  .type2{width:300px;height:19px;float:left;background:url(images/next_bg300.jpg) #CC0099;padding-top:6px;text-align:center;font-size:14px;font-weight:bold;}
+ #mtop .ah3{width:300px;height:19px;float:left;background:url(images/next_bg_r300.jpg) #CC0099;padding-top:6px;text-align:center;font-size:14px;font-weight:bold;}
+#mmid{width:900px;float:left;margin-top:40px;margin-left:49px;} 
+ #mmid ul{border-bottom:1px solid #d8ebfa;}	
+ #mmid ul li{float:left;height:65px; background:#e2f2ff;text-align:center;}
+ #mmid .w1{height:28px;text-align:left;padding-top:10px;padding-left:1%;width:7%;font-weight:600;border-bottom:1px solid #d8ebfa;}  /*width:8%*/
+ #mmid .w2{width:35%;height:27px;padding-top:11px;font-weight:600;border-bottom:1px solid #d8ebfa;}
+ #mmid .w3{width:10%;height:27px;padding-top:11px;font-weight:600;border-bottom:1px solid #d8ebfa;}
+ #mmid .w4{width:10%;height:27px;padding-top:11px;font-weight:600;border-bottom:1px solid #d8ebfa;}   /*height:27+11=35px;*/
+ #mmid .w5{width:12%;height:27px;padding-top:11px;font-weight:600;border-bottom:1px solid #d8ebfa;}
+ #mmid .w6{width:8%;height:27px;padding-top:11px;font-weight:600;border-bottom:1px solid #d8ebfa;}
+ #mmid .w7{width:9%;height:27px;padding-top:11px;font-weight:600;border-bottom:1px solid #d8ebfa;}
+ #mmid .w8{width:8%;height:38px;border-bottom:1px solid #d8ebfa;}
+ 
+ #mmid .c1{width:8%;border-bottom:1px solid #d8ebfa;padding-top:25px;height:40px;}
+ #mmid .c2{width:35%;border-bottom:1px solid #d8ebfa;text-align:left;line-height:20px;}
+ #mmid .c3{width:10%;border-bottom:1px solid #d8ebfa;padding-top:26px;height:39px;font-size:15px;font-weight:800;}
+ #mmid .c4{width:10%;border-bottom:1px solid #d8ebfa;padding-top:26px;height:39px;font-weight:550;}       /*height:65px*/
+ #mmid .c5{width:12%;border-bottom:1px solid #d8ebfa;padding-top:23px;height:42px;}
+ #mmid .c6{width:8%;border-bottom:1px solid #d8ebfa;padding-top:26px;height:39px;}
+ #mmid .c7{width:9%;border-bottom:1px solid #d8ebfa;padding-top:26px;height:39px;color:red;font-weight:bold;}
+ #mmid .c8{width:8%;border-bottom:1px solid #d8ebfa;padding-top:26px;height:39px;}
+ #mmid img{width:53px;height:53px;float:left;margin-top:6px;}
+ #mmid .imgtext{margin-top:10px;margin-left:5px;float:left;width:250px;line-height:18px;}
+.chebox{width:15px;height:15px;}
+
+#mbot{width:900px;margin-left:49px;float:left;margin-top:21px;font-weight:700;}
+ #mbot #l{width:380px;float:left;text-align:left;padding-left:20px;}
+  #mbot #l .bg{float:left;background:URL(images/plsc.jpg);width:60px;height:20px;padding-top:7px;padding-left:12px;}
+ #mbot #r{width:490px;float:left;text-align:right;padding-right:10px;font-weight:700;}	
+  #mbot #r span{font-size:20px;color:red;font-weight:bold;}
+#mbot2{width:890px;margin-left:49px;margin-top:26px;float:left;} 
+ #mbot2 #l{width:730px;float:left;text-align:right;height:13px;padding-top:14px;}
+ #mbot2 #r{width:160px;float:left;text-align:right;}
+</style>
+</head>
+
+<body>
+<div id="container_main">
+   <div id="top">
+	  <div id="welcome">
+	   <div id="login">您好，欢迎来到天地汇商城！您可以 <a href="#">登录</a> 或 <a href="#">免费注册</a></div>
+	   <div id="control">
+		 <div><a href="#">首页</a></div>
+		 <div><img src="images/shu.png" /></div><div><a href="#">我的天地</a></div>
+		 <div><img src="images/shu.png" /></div><div><a href="#">购物车</a></div>
+		 <div><img src="images/shu.png" /></div><div><a href="#">收藏夹</a></div>
+	   </div>
+	  </div>
+	 
+	  <div id="search">
+		<div id="search_left"><img src="images/search_left.png" /></div>
+		<div id="search_mid">
+		  <input onfocus="this.value=''" value="查找我想要的宝贝？" id="input_search" type="text" maxlength="37" />
+		</div>
+		<div id="search_right"><img src="images/search_right.png" /></div>
+	  </div><!--search -->
+	</div><!--top -->
+	
+	<div id="main">
+	   <div id="mtop">
+	   	  <ul>
+		  	 <li class="type1">1. 查看购物车&nbsp;&nbsp;&nbsp;</li>
+			 <li class="type2">2. 确认订单信息&nbsp;&nbsp;&nbsp;</li>
+			 <li class="ah3">3. 交易完成&nbsp;&nbsp;&nbsp;</li>
+		  </ul>
+	   </div><!--mtop -->
+	   
+	   <div id="mmid">
+	      <ul style="border-top:2px solid #aac9ff;">  <!--标题-->
+		  	 <li class="w1"><input type="checkbox" class="chebox" name="checkbox1" /></span>&nbsp;全选</li>
+			 <li class="w2">宝贝名称</li>
+			 <li class="w3">赠送积分</li>
+			 <li class="w4">单价(元)</li>
+			 <li class="w5">数量</li>
+			 <li class="w6">优惠</li>
+			 <li class="w7">小计(元)</li>
+			 <li class="w8">&nbsp;</li>
+		  </ul>
+		  <ul>    <!--商品-->
+		  	 <li class="c1"><input type="checkbox" class="chebox" name="checkbox2" /></li>
+			 <li class="c2">
+			 	<img src="images/img_littie.jpg" />
+				 <div class="imgtext">
+				    <a href="#">捷易通自动充值全功能代理版 全国手机话费充值卡QQ业务游戏点卡</a>
+				 </div>
+		     </li>
+			 <li class="c3">0</li>
+			 <li class="c4">300.00</li>
+			 <li class="c5"><input type="text" name="number" value="1" style="border:1px solid #a1a8ae;width:35px;height:18px;" /></li>
+		 	 <li class="c6">-</li>
+			 <li class="c7">300.00</li>
+			 <li class="c8"><a href="#">删除</a></li>
+		  </ul>
+		  <ul> 
+		  	 <li class="c1"><input type="checkbox" class="chebox" name="checkbox2" /></li>
+			 <li class="c2">
+			 	<img src="images/img_littie.jpg" />
+				 <div class="imgtext">
+				    <a href="#">捷易通自动充值全功能代理版 全国手机话费充值卡QQ业务游戏点卡</a>
+				 </div>
+		     </li>
+			 <li class="c3">0</li>
+			 <li class="c4">300.00</li>
+			 <li class="c5"><input type="text" name="number" value="1" style="border:1px solid #a1a8ae;width:35px;height:18px;" /></li>
+		 	 <li class="c6">-</li>
+			 <li class="c7">300.00</li>
+			 <li class="c8"><a href="#">删除</a></li>
+		  </ul>
+		  <ul> 
+		  	 <li class="c1"><input type="checkbox" class="chebox" name="checkbox2" /></li>
+			 <li class="c2">
+			 	<img src="images/img_littie.jpg" />
+				 <div class="imgtext">
+				    <a href="#">捷易通自动充值全功能代理版 全国手机话费充值卡QQ业务游戏点卡</a>
+				 </div>
+		     </li>
+			 <li class="c3">0</li>
+			 <li class="c4">300.00</li>
+			 <li class="c5"><input type="text" name="number" value="1" style="border:1px solid #a1a8ae;width:35px;height:18px;" /></li>
+		 	 <li class="c6">-</li>
+			 <li class="c7">300.00</li>
+			 <li class="c8"><a href="#">删除</a></li>
+		  </ul>
+	   </div><!--mmid -->
+	   
+	   <div id="mbot">
+	   	  <div id="l"><div class="bg"><a href="#">批量删除</a></div></div>
+	      <div id="r">商品总价(不含运费)：<span>305.00</span>元</div>
+	   </div>
+	   <div id="mbot2">
+		  <div id="l"><a href="index.html">返回继续购物</a></div>
+		  <div id="r"><a href="fill_info.html"><img src="images/js.png" border="0" /></a></div>
+	   </div>
+	</div>
+	
+</div><!--container_main -->
+<div class="clr"></div><div class="clr" style="margin-top:150px;"></div>
+<!--bottom begin-->
+<div id="bottom" class="pagewt">
+<a href="#">关于我们</a> | 
+<a href="#">广告服务</a> | 
+<a href="#">人才招聘</a> | 
+<a href="#">商品评价</a> | 
+<a href="#">销售联盟</a> | 
+<a href="#">友情链接</a> | 
+<a href="#">联系我们</a>
+</div><div class="clr"></div>
+
+<div style="text-align:center;float:left;width:100%; text-align:center;">
+北京市公安局海淀分局备案编号：2202081681 京ICP证:070359号
+<br/>CopyRight&copy;2004-2010 <img src="images/skyland.png" align="absmiddle"> 版权所有
+</div>
+<!--bottom end--><div class="clr"></div><div class="clr"></div>
+</body>
+</html>

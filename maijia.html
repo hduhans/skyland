@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>我的购物车</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<link href="css/person_msg.css" type="text/css" rel="stylesheet" />
+<style>
+.STYLE1 {color: #FF0000}
+</style>
+<script language="javascript" type="text/javascript">
+
+function show(objId)
+{
+for(var i=1;i<=6;i++)
+{
+if(("div_main_right_"+i)!=objId)
+{
+document.getElementById("div_main_right_"+i).style.display='none';
+}
+}
+document.getElementById(objId).style.display='block';
+}
+</script>
+</head>
+
+<body>
+<div id="container_main">
+   <div id="top">
+	  <div id="welcome">
+	   <div id="login">您好，欢迎来到天地汇商城！您可以 <a href="#">登录</a> 或 <a href="#">免费注册</a></div>
+	   <div id="control">
+		 <div><a href="#">首页</a></div>
+		 <div><img src="images/shu.png" /></div><div><a href="#">我的天地</a></div>
+		 <div><img src="images/shu.png" /></div><div><a href="#">购物车</a></div>
+		 <div><img src="images/shu.png" /></div><div><a href="#">收藏夹</a></div>
+	   </div>
+	  </div>
+	 
+	  <div id="search">
+		<div id="search_left"><img src="images/search_left.png" /></div>
+		<div id="search_mid">
+		  <input onfocus="this.value=''" value="查找我想要的宝贝？" id="input_search" type="text" maxlength="37" />
+		</div>
+		<div id="search_right"><img src="images/search_right.png" /></div>
+	  </div><!--search -->
+  </div><!--top -->
+	
+	<div id="main"><!--mtop -->
+      <!--mmid -->
+      <div id="div_main_left" style="float:left;width:160px; border:1px solid #CCCCCC;">
+        <div id="div_main_left_1">
+          <h1 style=" height:24px; background:url(images/main_left_top_bg.png); background-repeat:repeat-x; text-indent:20px; line-height:24px; font-weight:bolder; color:#000000;">交易管理</h1>
+          <div class="main_left">
+            <ul>
+              <li><a href="shopping_car.html" target="_blank">我的购物车</a> </li>
+              <li name="div_main_right_6" onclick="show(this.name)"><a href="#">已买到的宝贝</a> </li>
+              <li><a href="#">我的收藏</a> </li>
+              <li><a href="#">我的积分</a> </li>
+              <li><a href="#">我的优惠卡券</a> </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div id="div_main_left_2">
+          <h1 style=" height:24px; background:url(images/main_left_top_bg.png); background-repeat:repeat-x; text-indent:20px; line-height:24px; font-weight:bolder; color:#000000;">账号管理</h1>
+          <div class="main_left">
+            <ul>
+              <li name="div_main_right_1" onclick="show(this.name)"><a href="#">安全设置</a></li>
+              <li name="div_main_right_2" onclick="show(this.name)"><a href="#">密码管理</a></li>
+              <li name="div_main_right_3" onclick="show(this.name)"><a href="#">安全保护问题</a></li>
+              <li name="div_main_right_4" onclick="show(this.name)"><a href="#">个人交易信息</a></li>
+              <li name="div_main_right_5" onclick="show(this.name)"><a href="#">收货地址</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+	  <div id="div_main_right">
+	    <div id="div_main_right_1">
+           <h1>您的基础信息</h1>
+           <h2>登 录 邮 箱：web****nd@163.com   <a href="#">维护</a></h2>
+           <h2>上 次 登 录： 2011年03月23日 10:29:58(不是您登录的？请点击<a href="#">这里</a>)</h2>
+          <hr />
+           <h1>您的安全服务</h1>
+           <h4></h4>
+        </div>
+        
+	    <div id="div_main_right_2">
+           <h1>密码管理</h1>
+           <h2>密码由6-16个字符组成，为了您的账号安全，禁止使用全数字、全字母或连续字符作为密码。</h2>
+           <form id="form">
+           <h2>当前密码: <input name="" type="text"/></h2>
+           <h2>新的密码: <input name="" type="text"/>  (*6-16个字符，区分大小写，建议不要使用您的姓名或ID)</h2>
+           <h2>确认密码: <input name="" type="text"/></h2>
+           <h2 style="text-indent:90px; margin-top:10px;" >
+           <input name="" style="width:50px;" type="button" class="botto" value="确定"/></h2>
+           </form>
+        </div>
+        
+	    <div id="div_main_right_3">
+           <h1>安全问题维护</h1>
+           <h2>设置二代安保问题提示：为了避免日后遗忘，请您填写真实信息。</h2>
+           <hr />
+           <form id="form">
+           <h2>问题一: <select name="">
+                                <option value="0"></option>
+                                <option value="1">您的出生地是？</option>
+								<option value="2">您父亲的姓名是？</option>
+								<option value="3">您父亲的生日是？</option>
+								<option value="4">您母亲的姓名是？</option>
+								<option value="5">您母亲的生日是？</option>
+								<option value="6">您配偶的姓名是？</option>
+								<option value="7">您配偶的生日是？</option>
+								<option value="8">您孩子的名字是？</option>
+								<option value="9">您小学的学校名称是？</option>
+								<option value="10">您小学班主任的名字是？</option>
+								<option value="11">您中学的学校名称是？</option>
+								<option value="12">您初中班主任的名字是？</option>
+								<option value="13">您高中班主任的名字是？</option>
+								<option value="14">您大学辅导员的名字是？</option>
+								<option value="15">您的大学学号是？</option>
+								<option value="16">您的工号是？</option>
+</select></h2>
+           <h2>答案一: <input name="" type="text"/> </h2>
+           <h2>问题二: <select name="">
+                                <option value="0"></option>
+                                <option value="1">您的出生地是？</option>
+								<option value="2">您父亲的姓名是？</option>
+								<option value="3">您父亲的生日是？</option>
+								<option value="4">您母亲的姓名是？</option>
+								<option value="5">您母亲的生日是？</option>
+								<option value="6">您配偶的姓名是？</option>
+								<option value="7">您配偶的生日是？</option>
+								<option value="8">您孩子的名字是？</option>
+								<option value="9">您小学的学校名称是？</option>
+								<option value="10">您小学班主任的名字是？</option>
+								<option value="11">您中学的学校名称是？</option>
+								<option value="12">您初中班主任的名字是？</option>
+								<option value="13">您高中班主任的名字是？</option>
+								<option value="14">您大学辅导员的名字是？</option>
+								<option value="15">您的大学学号是？</option>
+								<option value="16">您的工号是？</option>
+</select></h2>
+           <h2>答案二: <input name="" type="text"/> </h2>
+           <h2>问题三: <select name="">
+                                <option value="0"></option>
+                                <option value="1">您的出生地是？</option>
+								<option value="2">您父亲的姓名是？</option>
+								<option value="3">您父亲的生日是？</option>
+								<option value="4">您母亲的姓名是？</option>
+								<option value="5">您母亲的生日是？</option>
+								<option value="6">您配偶的姓名是？</option>
+								<option value="7">您配偶的生日是？</option>
+								<option value="8">您孩子的名字是？</option>
+								<option value="9">您小学的学校名称是？</option>
+								<option value="10">您小学班主任的名字是？</option>
+								<option value="11">您中学的学校名称是？</option>
+								<option value="12">您初中班主任的名字是？</option>
+								<option value="13">您高中班主任的名字是？</option>
+								<option value="14">您大学辅导员的名字是？</option>
+								<option value="15">您的大学学号是？</option>
+								<option value="16">您的工号是？</option>
+</select></h2>
+           <h2>答案三: <input name="" type="text" size="30"/> </h2>
+           <h2 style="text-indent:90px; margin-top:10px;" ><input name="" style="width:50px;" class="botto" type="button" value="确定"/></h2>
+           </form>
+        </div>
+        
+	    <div id="div_main_right_4">
+           <h1>个人交易信息</h1>
+           <h2>密码由6-16个字符组成，为了您的账号安全，禁止使用全数字、全字母或连续字符作为密码。</h2>
+           <form id="form">
+           <h2>真实姓名：<input name="" type="text"/>请填写真实有效的姓名。</h2>
+           <h2>登录邮箱： webfriend@163.com</h2>
+           <h2>您的性别：<input name="sex" type="radio" size="8" checked="checked" value="男" />男<input name="sex" size="8" type="radio" value="女" />女</h2>
+           <h2>您的生日：<input type="text" size="10" />
+           年<input type="text" size="10" />
+           月<input type="text" size="10" />
+           日</h2>
+           <h2>您所在地：<input type="text" size="10" />
+           省<input type="text" size="10" />
+           市<input type="text" size="10" />
+           区</h2>
+           <h2>详细地址：
+             <input name="input3" type="text"/>
+             <input name="" type="text"/> *请填写真实有效的信息</h2>
+           <h2>邮政编码：</h2>
+           <h2>固定电话：<input name="input" type="text"/>-<input name="" type="text"/>-<input name="" type="text"/>区号-电话号码-分机 </h2>
+           <h2>您的手机：<input name="" type="text"/></h2>
+           <h2>优先联系：<input name="ph2" type="radio" checked="checked" size="8" value="" />固话<input name="ph2" size="8" type="radio" value="" />手机</h2>
+           <h2 style="text-indent:90px; margin-top:10px;" >
+           <input name="" style="width:50px;" type="button" class="botto" value="确定"/></h2>
+           </form>
+        </div>
+        
+	    <div id="div_main_right_5">
+        <h1>收货地址</h1>
+           <h2><span class="STYLE1"><strong>新增收货地址</strong></span>  电话号码、手机号选填一项,其余均为必填项</h2>
+           <form id="form">
+           <h2>收货人姓名：<input name="" type="text"/>*</h2>
+           <h2>收货人地址：<input type="text" size="10" />
+           省<input type="text" size="10" />
+           市<input type="text" size="10" />
+           区*</h2>
+           <h2>街道地址：<input name="" type="text"/>*</h2>
+           <h2>邮政编码：<input name="" type="text"/>*</h2>
+           <h2>电话号码：<input name="" type="text"/>-<input name="" type="text"/>-<input name="" type="text"/>区号-电话号码-分机 </h2>
+           <h2>手机号码：<input name="" type="text"/>
+           </h2>
+           <h2>优先联系：<input name="ph" type="radio" checked="checked" size="8" value="" />固话<input name="ph" type="radio" value="" size="8" />
+           手机</h2>
+           <h2 style="text-indent:90px; margin-top:10px;" >
+           <input name="" style="width:50px;" type="button" class="botto" value="确定"/></h2>
+           </form>
+           <h2><span class="STYLE1"><strong>已有收货地址</strong></span></h2>
+           
+           <h3 class="yysh"><span>收货人</span><span>所在地区</span><span>街道地址</span><span>邮编</span><span>电话/手机</span><span>操作</span></h3>
+           <h2>最多保存10个有效地址</h2>
+           
+        </div>
+        
+	    <div id="div_main_right_6" style=" display:block;">
+        <h2 style="margin-top:6px; margin-bottom:6px;">宝贝名称：<input name="" type="text" size="30" />  <input name="" type="button" style="width:50px;text-align:center" value="搜索"/></h2>
+        <div id="ygm"><span>宝贝</span><span>数量</span><span>单价(元)</span><span>实付款</span><span>交易状态</span></div>
+        <h2 style="background-color:#EEE; margin-bottom:5px;"><input name="" type="checkbox"  value="" />
+        全选&nbsp;&nbsp;
+        <input name="input2" height="15" size="35" value="批量确认收货" type="button" />
+        </h2>
+        <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">19.00<br/>(卖家包邮) 
+</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+        <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">29.00<br/>(含快递:10.00 )</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+          <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">19.00<br/>(卖家包邮) 
+</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+        <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">29.00<br/>(含快递:10.00 )</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+          <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">19.00<br/>(卖家包邮) 
+</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+        <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">29.00<br/>(含快递:10.00 )</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+          <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">19.00<br/>(卖家包邮) 
+</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+        <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">29.00<br/>(含快递:10.00 )</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+          <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">19.00<br/>(卖家包邮) 
+</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+        <!--列表开始-->
+        <div class="ymbb">
+         <h3 class="ymbb_0"><input name="" type="checkbox" value="" /> 订单编号：<span>68632084417767</span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成交时间：<span>2011-03-23 11:15</span></h3>
+         <div class="ymbb_1"><img src="pic/baobei.jpg" /></div>
+         <div class="ymbb_2"><a href="#">韩版春装百搭修身UV领两面可穿低领长袖打底衫 女装t恤DDS001</a></div>
+         <div class="ymbb_3">1</div>
+         <div class="ymbb_4">19.00</div>
+         <div class="ymbb_5">29.00<br/>(含快递:10.00 )</div>
+         <div class="ymbb_6">交易成功<br/><a href="#">查看订单详情</a></div>
+         <div style="clear:both; height:0;"></div></div>
+        <!--列表结束-->
+      
+        </div>
+        
+	  </div>
+      
+	  <div style="clear:both; height:0px; margin:auto;"></div>
+	</div>
+	
+</div><!--container_main -->
+<div class="clr"></div><div class="clr" style="margin-top:150px;"></div>
+<!--bottom begin-->
+<div id="bottom" class="pagewt">
+<a href="#">关于我们</a> | 
+<a href="#">广告服务</a> | 
+<a href="#">人才招聘</a> | 
+<a href="#">商品评价</a> | 
+<a href="#">销售联盟</a> | 
+<a href="#">友情链接</a> | 
+<a href="#">联系我们</a>
+</div><div class="clr"></div>
+
+<div style="text-align:center;float:left;width:100%; text-align:center;">
+北京市公安局海淀分局备案编号：2202081681 京ICP证:070359号
+<br/>CopyRight&copy;2004-2010 <img src="images/skyland.png" align="absmiddle"> 版权所有
+</div>
+<!--bottom end--><div class="clr"></div><div class="clr"></div>
+</body>
+</html>

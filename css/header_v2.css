@@ -1,0 +1,279 @@
+#page {
+	BACKGROUND: url(http://img01.taobaocdn.com/tps/i1/T1m8xHXe8lXXXXXXXX-23-78.png) repeat-x 0px 99px; MARGIN: 0px auto; WIDTH: 100%
+}
+#header {
+	WIDTH: 990px
+}
+#header-con {
+	MARGIN: 0px auto; WIDTH: 990px; POSITION: relative
+}
+.home-3c #site-nav {
+	MARGIN: 0px auto; WIDTH: 990px
+}
+#content .layout {
+	MARGIN: 0px auto; WIDTH: 990px
+}
+#header-3c {
+	Z-INDEX: 1000; BACKGROUND: #0f479e; BORDER-BOTTOM: #144999 2px solid; POSITION: relative; HEIGHT: 77px
+}
+#header-3c .logo-3c {
+	BACKGROUND: url(http://img01.taobaocdn.com/tps/i1/T1CAVHXlVQXXXXXXXX-372-79.png) no-repeat 0px 0px; LEFT: -75px; OVERFLOW: visible; WIDTH: 372px; POSITION: absolute; HEIGHT: 79px
+}
+#header-3c .logo-3c A {
+	DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; TEXT-INDENT: -999em
+}
+#header-3c .logo-3c .back-mall {
+	MARGIN: 22px 10px 0px 74px; WIDTH: 130px; HEIGHT: 35px
+}
+#header-3c .logo-3c .back-3c {
+	MARGIN: 25px 10px 0px 0px; WIDTH: 92px; HEIGHT: 29px
+}
+#header-3c .logo-3c A:hover {
+	BORDER-BOTTOM: #fff 2px solid
+}
+.hot-line-3c {
+	BACKGROUND: url(http://img01.taobaocdn.com/tps/i1/T100NKXe0eXXXXXXXX-360-500.png) no-repeat -167px -311px; LEFT: 781px; OVERFLOW: hidden; WIDTH: 194px; POSITION: absolute; TOP: 23px; HEIGHT: 40px
+}
+.hot-line-3c SPAN {
+	DISPLAY: none
+}
+.home-3c .hidden {
+	DISPLAY: block
+}
+#search-box {
+	BACKGROUND: url(http://img03.taobaocdn.com/tps/i3/T1rtJIXX8IXXXXXXXX-408-42.png) no-repeat 0px 0px; LEFT: 290px; WIDTH: 410px; POSITION: absolute; TOP: 20px; HEIGHT: 40px
+}
+#search-box INPUT {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 5px; BACKGROUND: 0px 0px; MARGIN: 8px 0px 0px 4px; VERTICAL-ALIGN: top; BORDER-LEFT: 0px; WIDTH: 317px; COLOR: #ccc; LINE-HEIGHT: 24px; BORDER-BOTTOM: 0px; HEIGHT: 28px
+}
+#search-box BUTTON {
+	MARGIN-TOP: 8px; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 70px; CURSOR: pointer; BORDER-TOP-STYLE: none; TEXT-INDENT: -10000em; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 25px; BORDER-BOTTOM-STYLE: none
+}
+#telphone {
+	RIGHT: 0px; POSITION: absolute; TOP: 23px
+}
+#foot-3c LI A {
+	BACKGROUND-IMAGE: url(http://img06.taobaocdn.com/tps/i6/T1DRdHXhBDXXXXXXXX-26-169.gif); BACKGROUND-REPEAT: no-repeat
+}
+#foot-3c H4 {
+	BACKGROUND-IMAGE: url(http://img04.taobaocdn.com/tps/i4/T1BSFIXgxaXXXXXXXX-360-500.png); BACKGROUND-REPEAT: no-repeat
+}
+#foot-3c {
+	BORDER-TOP: #f0f0f0 1px solid; MARGIN-TOP: 24px
+}
+#foot-3c UL {
+	BACKGROUND: url(http://img03.taobaocdn.com/tps/i3/T1kklHXjxIXXXXXXXX-105-90.png) no-repeat 170px 30px; MARGIN: 0px auto; WIDTH: 990px; HEIGHT: 160px
+}
+#foot-3c LI {
+	PADDING-LEFT: 70px; FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 175px
+}
+#foot-3c LI A {
+	BACKGROUND-POSITION: -4px -46px; DISPLAY: block; PADDING-LEFT: 10px; MARGIN-LEFT: 20px; COLOR: #999; LINE-HEIGHT: 22px; HEIGHT: 22px
+}
+#foot-3c H4 {
+	MARGIN-BOTTOM: 10px; OVERFLOW: hidden; TEXT-INDENT: -999em; HEIGHT: 32px
+}
+#foot-3c .city-service H4 {
+	BACKGROUND-POSITION: -216px -355px; WIDTH: 145px
+}
+#foot-3c .new H4 {
+	BACKGROUND-POSITION: 0px -234px; WIDTH: 90px
+}
+#foot-3c .pay-way H4 {
+	BACKGROUND-POSITION: 0px -270px; WIDTH: 90px
+}
+#foot-3c .join H4 {
+	BACKGROUND-POSITION: 0px -300px; BORDER-LEFT: #f0f0f0 1px solid; WIDTH: 90px
+}
+.join A {
+	FONT-FAMILY: "ËÎÌו",tahoma,sans-serif
+}
+.em {
+	COLOR: #f60
+}
+.comment-grade {
+	BACKGROUND: url(http://img02.taobaocdn.com/tps/i2/T12UhrXaXvXXXXXXXX-490-495.png) no-repeat 0px -9999px
+}
+#crumbs A {
+	BACKGROUND: url(http://img02.taobaocdn.com/tps/i2/T12UhrXaXvXXXXXXXX-490-495.png) no-repeat 0px -9999px
+}
+#crumbs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 5px auto; WIDTH: 950px; PADDING-TOP: 5px
+}
+.col-main #crumbs {
+	PADDING-BOTTOM: 0px; WIDTH: auto
+}
+#crumbs A {
+	PADDING-RIGHT: 12px; BACKGROUND-POSITION: right -18px; PADDING-LEFT: 5px
+}
+#crumbs A.noarrow {
+	PADDING-RIGHT: 0px; BACKGROUND: 0px 0px
+}
+.comment-grade {
+	BACKGROUND-POSITION: left -38px; MARGIN-TOP: 4px; DISPLAY: inline-block; FONT-SIZE: 15px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; WIDTH: 63px; TEXT-INDENT: -1000px; LINE-HEIGHT: 15px; POSITION: absolute; HEIGHT: 15px
+}
+.cg0 {
+	BACKGROUND-POSITION: -200px -188px
+}
+.cg1 {
+	BACKGROUND-POSITION: -200px -173px
+}
+.cg2 {
+	BACKGROUND-POSITION: -200px -158px
+}
+.cg3 {
+	BACKGROUND-POSITION: -200px -143px
+}
+.cg4 {
+	BACKGROUND-POSITION: -200px -128px
+}
+.cg5 {
+	BACKGROUND-POSITION: -200px -113px
+}
+.cg6 {
+	BACKGROUND-POSITION: -200px -98px
+}
+.cg7 {
+	BACKGROUND-POSITION: -200px -83px
+}
+.cg8 {
+	BACKGROUND-POSITION: -200px -68px
+}
+.cg9 {
+	BACKGROUND-POSITION: -200px -53px
+}
+.cg10 {
+	BACKGROUND-POSITION: -200px -38px
+}
+.price-hot {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-special {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-limit {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-fullgift {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount1 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount2 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount3 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount4 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount5 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount6 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount7 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount8 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-discount9 {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(http://img02.taobaocdn.com/tps/i2/T1btNtXgNsXXXXXXXX-629-119.png); WIDTH: 45px; TEXT-INDENT: -9999px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 0px; HEIGHT: 45px
+}
+.price-hot {
+	BACKGROUND-POSITION: -502px -2px; HEIGHT: 53px! important
+}
+.price-special {
+	BACKGROUND-POSITION: 2px -67px; HEIGHT: 53px! important
+}
+.price-limit {
+	BACKGROUND-POSITION: -557px -7px; LEFT: 0px; WIDTH: 76px; HEIGHT: 17px
+}
+.price-fullgift {
+	BACKGROUND-POSITION: -557px -27px; LEFT: 0px; WIDTH: 76px; HEIGHT: 17px
+}
+.price-discount1 {
+	BACKGROUND-POSITION: -52px -2px
+}
+.price-discount2 {
+	BACKGROUND-POSITION: -102px -2px
+}
+.price-discount3 {
+	BACKGROUND-POSITION: -152px -2px
+}
+.price-discount4 {
+	BACKGROUND-POSITION: -202px -2px
+}
+.price-discount5 {
+	BACKGROUND-POSITION: -252px -2px
+}
+.price-discount6 {
+	BACKGROUND-POSITION: -302px -2px
+}
+.price-discount7 {
+	BACKGROUND-POSITION: -352px -2px
+}
+.price-discount8 {
+	BACKGROUND-POSITION: -402px -2px
+}
+.price-discount9 {
+	BACKGROUND-POSITION: -452px -2px
+}
+.w950 #header-con {
+	WIDTH: 950px
+}
+.w950 #header {
+	WIDTH: 950px
+}
+.w950 #site-nav {
+	WIDTH: 950px
+}
+.w950 #foot-3c UL {
+	WIDTH: 950px
+}
+.w950 #content .layout {
+	WIDTH: 950px
+}
+.w950 #footer {
+	WIDTH: auto
+}
+.w950 #foot-3c LI {
+	WIDTH: 165px
+}
+#header-3c {
+	BACKGROUND-COLOR: #144899
+}
+#header-3c .logo-3c {
+	BACKGROUND: url(http://img03.taobaocdn.com/tps/i3/T1jcJKXlXtXXXXXXXX-372-79.png) no-repeat 0px 0px
+}
+#header-3c .logo-3c .back-3c {
+	WIDTH: 56px
+}
+#foot-3c H4 {
+	BACKGROUND-IMAGE: url(http://img01.taobaocdn.com/tps/i1/T100NKXe0eXXXXXXXX-360-500.png)
+}
+#foot-3c .city-service H4 {
+	BACKGROUND-POSITION: -216px -360px
+}
+#foot-3c .new H4 {
+	BACKGROUND-POSITION: 0px -238px
+}
+#foot-3c UL {
+	BACKGROUND: url(http://img03.taobaocdn.com/tps/i3/T1GdhKXoFiXXXXXXXX-96-85.png) no-repeat 170px 30px
+}
+#foot-3c LI SPAN {
+	BACKGROUND-POSITION: -4px -46px; DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(http://img06.taobaocdn.com/tps/i6/T1DRdHXhBDXXXXXXXX-26-169.gif); MARGIN-LEFT: 20px; COLOR: #999; LINE-HEIGHT: 22px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 22px
+}
+#footer P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#footer P STRONG {
+	FONT-WEIGHT: normal
+}
+#footer P A {
+	COLOR: #36c; MARGIN-RIGHT: 3px
+}

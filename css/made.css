@@ -1,0 +1,25 @@
+/* CSS Document */
+/*#category{border:1px solid #C8C8C8;width:194px; float:left;}
+#category h1{width:194px;background:url(images/mes_bg.png); height:31px; border-bottom:1px solid #C8C8C8;line-height:31px; font-size:14px; color:#000000; font-family:Arial, Helvetica, sans-serif; font-weight:600;}
+
+#category dl{padding:0px; margin-bottom:10px;float:left;}
+#category dl dt{font:bold 12px ËÎÌו;color:#000000;width:164px;float:left;clear:both;float:left;height:1px; background-color:#009999;}
+#category dl dd{display:inline-block;padding:6px 0px 6px 0px;float:left;width:90px;float:left;text-align:center;width:194px; background-color:#FFFF99;}
+
+#category ul{padding:0px; margin-bottom:10px;float:left;}
+#category .head*/
+
+
+/*second*/
+/*#category{border:1px solid #C8C8C8;width:194px; float:left;}
+#category h1{width:194px;background:url(../images/mes_bg.png); height:31px; border-bottom:1px solid #C8C8C8;line-height:31px; font-size:14px; color:#000000; font-family:Arial, Helvetica, sans-serif; font-weight:600;}
+#category dl{padding:0px; margin-bottom:10px;float:left;}
+#category dl dt{font:bold 12px ËÎÌו;color:#000000;padding:10px 0px 10px 20px;border-bottom:1px dotted #cccccc;clear:both;}
+#category dl dd{display:inline-block;float:left;width:73px;padding-left:20px; line-height:29px;}*/
+
+#category{border:1px solid #C8C8C8;width:194px;}
+#category h1{background:url(../images/mes_bg.png);height:31px; border-bottom:1px solid #C8C8C8;line-height:31px; font-size:14px; color:#000000; font-family:Arial, Helvetica, sans-serif; font-weight:600;}
+#category dl{padding:5px}
+#category dl dt{font:bold 12px ËÎÌו;color:#000000;padding:10px 0px 10px 20px;border-bottom:1px dotted #cccccc;clear:both}
+#category dl dd{display:inline-block;float:left;width:73px;padding:6px;}
+

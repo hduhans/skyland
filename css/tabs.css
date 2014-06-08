@@ -1,0 +1,77 @@
+div.content {
+    clear: left;
+	padding-top:8px;
+	float:left;
+	height:auto;
+}
+
+div.content.inactive {
+	display: none;
+}
+
+ol#toc {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	font-size:12px;
+}
+
+ol#toc a {
+    color: #008;
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+/*ol#toc a:hover {
+    background-color: #3af;
+    background-position: 0 -120px;
+}
+
+ol#toc a:hover span {
+    background-position: 100% -120px;
+}*/
+
+ol#toc li {
+    float: left;
+    margin: 0 1px 0 0;
+	border:solid 1px #cecece;
+	border-bottom:solid 1px #8e0101;
+	background:url(../images/toc_bg.png);
+	height:25px;
+	width:84px;
+	padding-top:4px;
+	padding-left:12px;
+}
+ol#toc li a{
+	color:#000;
+	font-size:14px;
+}
+
+ol#toc li a.active {
+    /*background-color: #48f;*/
+	background-color:#FFFFFF;
+	background-image:none;
+    background-position: 0 -80px;
+    color: #8e0101;
+    font-weight: bold;
+	border:solid 1px #8e0101;
+	border-bottom:solid 1px #FFF;
+	background-color:#FFF;
+
+}
+
+ol#toc li a.active span {
+	
+}
+
+ol#toc span {
+    
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}
